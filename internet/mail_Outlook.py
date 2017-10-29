@@ -1,7 +1,7 @@
 import win32com.client as win32
 outlook = win32.Dispatch('outlook.application')
 count=0;
-mails=['swaraj_somala@avinsystems','jyothi.m@avinsystems.com','pavankumar.valmiki@avinsystems.com']
+mails=['swaraj_somala@companyname.com','','']
 for i in mails:
 	print(str(count)+" "+ i)
 	count = count+1;
