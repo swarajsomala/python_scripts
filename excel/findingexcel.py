@@ -1,6 +1,6 @@
 import time
 import openpyxl
-wb = openpyxl.load_workbook('Final Consolidated RTE Requirements 29 June.xlsx')
+wb = openpyxl.load_workbook('Name.xlsx')
 sheets =  wb.get_sheet_names()
 f1 = open("res_new.txt","w")
 with open('res.txt') as f:
