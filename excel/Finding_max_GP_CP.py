@@ -1,5 +1,5 @@
 import openpyxl
-wb = openpyxl.load_workbook('Final Consolidated RTE Requirements 22 June.xlsx')
+wb = openpyxl.load_workbook('Name.xlsx')
 sheets =  wb.get_sheet_names()
 f = open("res.txt","w")
 for name in sheets:
