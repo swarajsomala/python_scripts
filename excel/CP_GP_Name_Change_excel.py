@@ -10,9 +10,9 @@ for name in sheets:
 		src = 'D'+str(i)
 		s = sheet[src].value
 		if s!=None and s.startswith('G'):
-			sheet[tar] = 'AVIN_RTE_GP'+sheet[tar].value[8:]
+			sheet[tar] = 'V'+sheet[tar].value[8:]
 		if s!= None and s.startswith('C'):
-			sheet[tar] = 'AVIN_RTE_CP'+sheet[tar].value[8:]
+			sheet[tar] = 'S'+sheet[tar].value[8:]
 		print(sheet[tar].value+'\n')
 wb.save('Res.xlsx')
                         
