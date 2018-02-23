@@ -2,7 +2,7 @@ import win32com.client as wincl
 import time
 import openpyxl
 speak = wincl.Dispatch("SAPI.SpVoice")
-wb = openpyxl.load_workbook('Copy of Final Consolidated RTE Requirements21June.xlsx')
+wb = openpyxl.load_workbook('Name.xlsx')
 sheets =  wb.get_sheet_names()
 f = open("res.txt","w")
 for name in sheets:
